@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root {
+    --white: #fff;
+    --black: #1c2b2d;
+    --blue: #31326f;
+    --color-primary: #9d0191;
+    --color-sec: #db6400;
+    --color-grey: #eee;
+    --color-dark-grey: #222831;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+
+}
+body{
+font-family:sans-serif;
+}
+p{
+    font-size: 1.6rem;
+line-height: 1.5rem;
+}
+img{
+    width: 50%;
+}
+.container{
+    max-width: 1200px;
+    margin: 0px 50px;
+    padding: 0,20px;
+}
+header{
+    background-color: #eee;
+    padding: 1rem;
+}
+header h1{
+    font-size: 3.5rem;
+    line-height: 2;
+    color: var(--color-primary);
+}
+form input{
+    width: 30rem;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 2px solid var(--color-color-sec);
+    outline: none;
+    margin-bottom: 2rem;
+}
+.btn{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: orange;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 1rem;
+
+}
+.slider-container{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#cartbutton{
+    font-size: 15px;
+}
+.active{
+    background-color: purple;
+}
+
+    
+.store-product{
+    border: 1px solid #eee;
+    border-radius: 3px;
+    max-width: 36rem;
+    height: 400px;
+}
+#cartbutton{
+    text-decoration: none;
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+}
+#mainbhai{
+     display: grid;
+    grid-template-columns: repeat(3,1fr);  
+    text-align: center;  
+}
+
+/* .image-wrapper{
+    height: 100px;
+
+} */
+
+
+.product-details p span {
+    text-decoration: line-through;
+    color: red;
+    font-weight: normal;
+}
+.product-details a {
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: var(--color-sec);
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: 3px;
+}
+
+.product-details a:hover {
+    background-color:purple;
+}
+p{
+    margin-top: 5px;
+    text-align: center;
+}
